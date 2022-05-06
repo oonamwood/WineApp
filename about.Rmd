@@ -1,0 +1,39 @@
+---
+title: "Welcome"
+output: html_document
+runtime: shiny
+---
+
+## Background for the Vinho Verde Data Set
+
+This data set was produced by a study commissioned by the Viticulture Commission of the Vinho Verde Region (CVRVV) in Porto, Portugal with the goal of improving the quality and marketing of vinho verde. Between May 2004 and February 2007, thousands of wines were laboratory and sensory tested to construct a data set that included the chemical profiles and quality scores of the wines.
+
+The independent variables in this data set are: 
+* 1 - fixed acidity
+* 2 - volatile acidity
+* 3 - citric acid
+* 4 - residual sugar
+* 5 - chlorides
+* 6 - free sulfur dioxide
+* 7 - total sulfur dioxide
+* 8 - density
+* 9 - pH
+* 10 - sulphates
+* 11 - alcohol 
+
+The dependent variable here is: quality
+For analysis, the quality scores of the wines were grouped into categories. Below a 5 was a "low" quality wine, 5-7 was a "normal" wine, above a 7 was a "high" quality wine.
+
+
+## Navigating this App
+
+* **Density Plots:**
+  Explore how different variables affect the distribution of the low, normal, and high wines.
+* **Boxplots:**
+  Playing with the sliders on this page will change the output of the boxplots so that potential outliers may be visually identified 
+* **K-Nearest Neighbors:**
+  See how we can or cannot predict the outcomes of the wine quality based on the chemical profiles of the wines
+* **Table:**
+  If interested, you can review the raw data in this tab
+
+
